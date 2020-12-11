@@ -29,10 +29,6 @@ $crawler = new Crawler([
     'password' => 'your-password',
     'media_format' => 'web',
     'summary_length' => 150,
-    'images' => true,
-    'no_images' => true,
-    'videos' => false,
-    'texts' => false,
 ]);
 
 $search = $crawler->search([
